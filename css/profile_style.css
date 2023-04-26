@@ -8,7 +8,7 @@
     text-decoration: none;
     border: none;
     outline: none;
-    scroll-behavior: smooth;
+/*     scroll-behavior: smooth; */
 }
 
 :root {
@@ -90,10 +90,6 @@ section {
     width: 100%;
     height: 100%;
     background: url('../images/Batmobile.jpg') no-repeat;
-    /* background: url('../images/DEADPOOL.jpeg') no-repeat; */
-    /* background: url('../images/Spider-Man\ Black\ suit.jpeg') no-repeat; */
-    /* background: url('../images/wallpaper-batman-comic.jpg') no-repeat; */
-    /* background: url('../images/joker.jpg') no-repeat; */
     background-size: cover;
     filter: blur(5px);
 }
@@ -104,7 +100,6 @@ section {
     max-width: 70rem;
 
 }
-
 
 .home {
     display: flex;
@@ -277,23 +272,6 @@ section {
 .home-sci a:hover:before {
     width: 100%;
 }
-
-/* 
-.home-imgHover{
-    position: relative;
-    top: 0;
-    right: 0;
-    width: 45%;
-    height: 100px;
-    background: yellowgreen;
-    border: 2px solid red;
-    transition: 3s;
-}
-
-.home-imgHover:hover{
-    background: var(--bg--color);
-    opacity: .8;
-} */
 
 .about {
     display: flex;
